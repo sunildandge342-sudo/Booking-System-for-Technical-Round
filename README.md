@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Booking System
 
 A RESTful booking system built with Spring Boot, PostgreSQL and JWT authentication.
@@ -218,3 +219,6 @@ DELETE /reservations/{id}
 - Hard delete on resources. Soft delete (active = false) would be better in production.
 - userId on POST /reservations always comes from JWT — not from request body.
 - Single role per user since only ADMIN and USER are required.
+=======
+# Booking-System-for-Technical-Round
+>>>>>>> fec0a59a0d9a881e0739685ad19be135eaf312b6
